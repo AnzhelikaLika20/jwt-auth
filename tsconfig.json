@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es6",                        // Версия ECMAScript, на которую будет производиться транспиляция
-    "module": "commonjs",                   // Система модулей
-    "outDir": "dist",                      // Директория для скомпилированных файлов
-    "rootDir": "src",                      // Корневая директория исходных файлов
-    "strict": true,                        // Включение строгого режима типов
-    "esModuleInterop": true,               // Улучшенная совместимость с модулями ES
-    "skipLibCheck": true                   // Пропуск проверки типов для файлов объявлений
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts"                          // Включаемые файлы для компиляции
+    "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",                       // Исключаемые директории
+    "node_modules",
     "dist"
   ]
 }
